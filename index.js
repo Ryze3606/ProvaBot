@@ -2,7 +2,7 @@ const Discord = require("discord.js")
 const client = new Discord.Client(
     { intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES"] }
 )
-client.login("OTYyNTQxMTc2MTUyNTQzMjMy.YlJCUw.xK2gMlqYVgK8j9Xp3HyONxKl8RE")
+client.login("process.env.token")
 
 
 
